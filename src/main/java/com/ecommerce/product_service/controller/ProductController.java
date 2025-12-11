@@ -15,7 +15,7 @@ public class ProductController {
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
     public List<String> getAllProducts(){
-        return Arrays.asList("Product1","Product2","Product3");
+        return Arrays.asList("Product1","Product2","Product3", "Product4");
     }
 
 }
